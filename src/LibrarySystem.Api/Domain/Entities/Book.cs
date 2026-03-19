@@ -10,5 +10,5 @@ public class Book
     public DateTime CreatedAt { get; set; } 
     public DateTime? UpdatedAt { get; set; }
     
-    ICollection<Loan> Loans { get; set; } =  new List<Loan>();
+    public ICollection<Loan> Loans { get; set; } =  new List<Loan>();
 }

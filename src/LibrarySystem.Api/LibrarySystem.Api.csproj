@@ -26,7 +26,6 @@
     <Folder Include="Application\" />
     <Folder Include="Controllers\" />
     <Folder Include="Extensions\" />
-    <Folder Include="Infrastructure\" />
   </ItemGroup>
 
 </Project>

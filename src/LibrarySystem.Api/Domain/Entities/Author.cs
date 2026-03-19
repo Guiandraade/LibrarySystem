@@ -10,5 +10,5 @@ public class Author
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     public DateTime? UpdatedAt { get; set; }
     
-    ICollection<Book> Books { get; set; } =  new List<Book>();
+    public ICollection<Book> Books { get; set; } =  new List<Book>();
 }

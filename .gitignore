@@ -1,0 +1,40 @@
+## Arquivos do .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Arquivos do Visual Studio
+.vs/
+.vscode/
+
+## Arquivos do Rider (JetBrains)
+.idea/
+*.sln.iml
+
+## Arquivos de configuração de usuário
+appsettings.Development.json
+appsettings.Production.json
+
+## Pacotes NuGet
+packages/
+*.nupkg
+
+## Arquivos de build
+*.dll
+*.exe
+*.pdb
+*.so
+*.dylib
+
+## Testes
+TestResults/
+coverage/
+*.trx
+
+## Logs e temp
+*.log
+*.tmp
+*.temp
